@@ -28,7 +28,7 @@ main{
     max-width: 800px;
     border-radius: 0px 0px 10px 10px;
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     border-radius: 30px;
 }
 
@@ -89,6 +89,7 @@ main ol{
 footer p{
     text-align: center;
     color: var(--Footer-e-legenda-da-imagem);
+    padding: 0px 0px 20px 0px;
 }
 
 
