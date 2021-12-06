@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --Background-da-página: #EAEAEA;
+    --Background-da-receita: #FFFFFF;
+    --Títulos-e-subtítulos: #1B1B1B;
+    --Footer-e-legenda-da-imagem: #8F8F8F;
+    --Outros-textos: #39393A;
+
+    --font-size: 28px
+}
+
+body{
+   font-family: 'Roboto', sans-serif;
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: var(--Background-da-página);
+}
+
+main{
+    background-color: var(--Background-da-receita);
+    margin: auto;
+    list-style-position: inside;
+    max-width: 800px;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 30px;
+}
+
+main h1{
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--Títulos-e-subtítulos);
+}
+
+main img{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    border-radius: 10px;
+}
+
+.foto p{
+    text-align: right;
+    font-size: 8px;
+    text-align: center;
+    color: var(--Footer-e-legenda-da-imagem);
+    margin-top: 10px;
+}
+
+.items h2{
+    text-align: center;
+    padding: 30px;
+    color: var(--Títulos-e-subtítulos);
+    margin-top: 20px;
+}
+
+main h2{
+    text-align: center;
+    padding: 30px;
+}
+
+main ul {
+    line-height: 35px;
+    text-indent: 50px;
+    text-align: justify;
+    padding: 0px 40px;
+}
+
+main ol{
+    line-height: 35px;
+    text-indent: 40px;
+    text-align: justify;
+    padding: 0px 40px;
+}
+
+.info-add p{
+    text-align: center;
+    padding: 0px 0px 20px 0px
+}
+
+footer p{
+    text-align: center;
+    color: var(--Footer-e-legenda-da-imagem);
+}
+
+
+
+
+
+
+
+
+
+
+
